@@ -1,4 +1,5 @@
 /venv
 /data
-/wdrivers
+/del/wdrivers
+/del
 .env
