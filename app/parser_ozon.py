@@ -70,11 +70,6 @@ def get_products_links():
     with open('data/products_urls_dict.json', 'w', encoding='utf-8') as file:
         json.dump(products_urls_dict, file, indent=4, ensure_ascii=False)
 
-    # сортировка по рейтингу
-    # current_url = f'{driver.current_url}&sorting=rating'
-    # driver.get(url=current_url)
-    # time.sleep(2)
-
     products_data = []
 
     for url in products_urls:
